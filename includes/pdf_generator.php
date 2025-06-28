@@ -1,3 +1,4 @@
+// This is pdf generator file
 <?php
 // Start output buffering to prevent premature output
 ob_start();
