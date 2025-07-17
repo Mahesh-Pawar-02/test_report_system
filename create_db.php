@@ -1,5 +1,6 @@
 <?php
 // Database configuration
+// Database name : test_report_system
 $host = 'localhost';
 $user = 'root'; // Update with your MySQL username
 $pass = '';     // Update with your MySQL password
