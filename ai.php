@@ -1,3 +1,5 @@
+// AI integreted
+
 <?php
 require_once "includes/ai_functions.php";
 
