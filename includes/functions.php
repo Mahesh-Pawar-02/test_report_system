@@ -126,7 +126,7 @@ function deleteReport($pdo, $report_id) {
     }
 }
 
-// Get report details with related data
+// Get report details with related data from user
 function getReportDetails($pdo, $report_id) {
     $report = $pdo->prepare("SELECT * FROM test_reports WHERE id = ?");
     $report->execute([$report_id]);
